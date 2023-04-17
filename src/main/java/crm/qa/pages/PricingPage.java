@@ -1,5 +1,5 @@
 package crm.qa.pages;
 
-public class PricingPage {
+public class PricingPage extends TestBase {
 
 }
