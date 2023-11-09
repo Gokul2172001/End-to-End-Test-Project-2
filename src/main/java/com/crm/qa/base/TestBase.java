@@ -25,7 +25,6 @@ public class TestBase {
 		} catch(IOException e) {
 			e.printStackTrace();
 		}
-		
 	}
 	
 	@SuppressWarnings("deprecation")
@@ -48,7 +47,6 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.PAGE_IMPLICIT_WAIT, TimeUnit.SECONDS);
-		
 		driver.get(prop.getProperty("url"));
 	}
 }
